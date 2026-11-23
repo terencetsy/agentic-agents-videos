@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agentic Agents — 10 Videos</title>
+<meta name="description" content="Ten short animated videos about agentic AI agents, made in one day with the ReachMora engine and an ElevenLabs voice.">
+<style>
+  :root {
+    --paper: #f5f1e6;
+    --ink: #1c1b22;
+    --muted: #5c5648;
+    --green: #2f7a5a;
+    --purple: #5b4a8a;
+    --blue: #4a7fbf;
+    --card: #fffdf6;
+    --line: #e3dcc9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.55;
+  }
+  header {
+    text-align: center;
+    padding: 56px 20px 32px;
+    border-bottom: 3px solid var(--ink);
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    line-height: 1.1;
+  }
+  header p { margin: 6px auto; max-width: 640px; color: var(--muted); font-size: 1.05rem; }
+  .stats {
+    display: flex; flex-wrap: wrap; gap: 12px;
+    justify-content: center; margin-top: 24px;
+  }
+  .stat {
+    background: var(--card);
+    border: 2px solid var(--ink);
+    border-radius: 12px;
+    padding: 10px 18px;
+    min-width: 120px;
+  }
+  .stat b { display: block; font-size: 1.6rem; line-height: 1.1; }
+  .stat span { font-size: 0.85rem; color: var(--muted); }
+  main { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+  }
+  .card {
+    background: var(--card);
+    border: 2px solid var(--ink);
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .card video { width: 100%; aspect-ratio: 16 / 9; display: block; background: #000; }
+  .card-body { padding: 16px 18px 18px; flex: 1; display: flex; flex-direction: column; }
+  .card-body h2 { margin: 0 0 6px; font-size: 1.15rem; line-height: 1.3; }
+  .card-body p { margin: 0; color: var(--muted); font-size: 0.95rem; flex: 1; }
+  .meta {
+    display: flex; gap: 8px; align-items: center;
+    margin-top: 12px; font-size: 0.85rem;
+  }
+  .num {
+    background: var(--green); color: #fff;
+    border-radius: 999px; padding: 2px 10px; font-weight: bold;
+  }
+  .dur { color: var(--muted); }
+  .dl { margin-left: auto; color: var(--blue); }
+  section.timeline { margin-top: 48px; }
+  section.timeline h2, section.pilot h2 { font-size: 1.5rem; margin-bottom: 8px; }
+  .timeline ol { padding-left: 22px; }
+  .timeline li { margin: 6px 0; }
+  .timeline time { font-weight: bold; }
+  section.pilot { margin-top: 40px; }
+  .pilot-card {
+    display: flex; gap: 20px; flex-wrap: wrap;
+    background: var(--card); border: 2px solid var(--ink);
+    border-radius: 14px; padding: 18px;
+  }
+  .pilot-card video { width: 100%; max-width: 420px; aspect-ratio: 16 / 9; border-radius: 8px; background: #000; }
+  .pilot-card div { flex: 1; min-width: 260px; }
+  .pilot-card h3 { margin-top: 0; }
+  footer {
+    text-align: center; color: var(--muted);
+    padding: 32px 20px 48px; border-top: 2px solid var(--line);
+    font-size: 0.9rem;
+  }
+  footer a { color: var(--blue); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Agentic Agents</h1>
+  <p>Ten short animated videos about AI agents that do the work while you sleep — made in a single day, 23 November 2026.</p>
+  <div class="stats">
+    <div class="stat"><b>10</b><span>videos</span></div>
+    <div class="stat"><b>~15 min</b><span>total runtime</span></div>
+    <div class="stat"><b>720p</b><span>16:9, every one</span></div>
+    <div class="stat"><b>George</b><span>voice, via ElevenLabs</span></div>
+    <div class="stat"><b>1 day</b><span>test to finished set</span></div>
+  </div>
+</header>
+
+<main>
+  <div class="grid">
+
+    <article class="card">
+      <video controls preload="metadata" poster="posters/three-jobs.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/The_3_Jobs_Agents_Do_Better_Than_Humans.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h2>The 3 Jobs Agents Do Better Than Humans</h2>
+        <p>Booking, triage and follow-ups: the jobs agents already do better than people.</p>
+        <div class="meta"><span class="num">1</span><span class="dur">1:32</span><a class="dl" href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/The_3_Jobs_Agents_Do_Better_Than_Humans.mp4">Download</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata" poster="posters/cost-save.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/What_Agents_Cost_vs_What_They_Save.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h2>What Agents Cost vs What They Save</h2>
+        <p>The maths of an agent&rsquo;s cost against the hours it hands back.</p>
+        <div class="meta"><span class="num">2</span><span class="dur">1:30</span><a class="dl" href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/What_Agents_Cost_vs_What_They_Save.mp4">Download</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata" poster="posters/chatbots.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/Agents_vs_Chatbots_-_What_s_Actually_Different.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h2>Agents vs Chatbots &mdash; What&rsquo;s Actually Different</h2>
+        <p>Chatbots answer. Agents act. Here is the line between them.</p>
+        <div class="meta"><span class="num">3</span><span class="dur">1:31</span><a class="dl" href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/Agents_vs_Chatbots_-_What_s_Actually_Different.mp4">Download</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata" poster="posters/books-flight.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/The_Agent_That_Books_Your_Flight_While_You_Sleep.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h2>The Agent That Books Your Flight While You Sleep</h2>
+        <p>Say where you&rsquo;re going. Wake up with the ticket booked.</p>
+        <div class="meta"><span class="num">4</span><span class="dur">1:27</span><a class="dl" href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/The_Agent_That_Books_Your_Flight_While_You_Sleep.mp4">Download</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata" poster="posters/inbox.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/Your_Inbox_Handled_720p.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h2>Your Inbox, Handled</h2>
+        <p>An agent that reads, sorts and drafts replies while you sleep.</p>
+        <div class="meta"><span class="num">5</span><span class="dur">1:32</span><a class="dl" href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/Your_Inbox_Handled_720p.mp4">Download</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata" poster="posters/write-code.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/Agents_That_Write_Code_While_You_Review_720p.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h2>Agents That Write Code While You Review</h2>
+        <p>The code writes itself; your job becomes the review.</p>
+        <div class="meta"><span class="num">6</span><span class="dur">1:27</span><a class="dl" href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/Agents_That_Write_Code_While_You_Review_720p.mp4">Download</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata" poster="posters/meeting.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/The_5-Minute_Meeting_720p.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h2>The 5-Minute Meeting</h2>
+        <p>Meetings shrink to five minutes when an agent does the prep.</p>
+        <div class="meta"><span class="num">7</span><span class="dur">1:33</span><a class="dl" href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/The_5-Minute_Meeting_720p.mp4">Download</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata" poster="posters/taste.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/How_Agents_Learn_Your_Taste_720p.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h2>How Agents Learn Your Taste</h2>
+        <p>Memory, feedback, and the line between helpful and creepy.</p>
+        <div class="meta"><span class="num">8</span><span class="dur">1:27</span><a class="dl" href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/How_Agents_Learn_Your_Taste_720p.mp4">Download</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata" poster="posters/checkers.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/Who_Checks_the_Checkers_720p.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h2>Who Checks the Checkers?</h2>
+        <p>When agents check each other&rsquo;s work, who checks the last one?</p>
+        <div class="meta"><span class="num">9</span><span class="dur">1:37</span><a class="dl" href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/Who_Checks_the_Checkers_720p.mp4">Download</a></div>
+      </div>
+    </article>
+
+    <article class="card">
+      <video controls preload="metadata" poster="posters/talk.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/When_Agents_Talk_to_Each_Other_720p.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h2>When Agents Talk to Each Other</h2>
+        <p>Agents calling agents: the protocol layer underneath it all.</p>
+        <div class="meta"><span class="num">10</span><span class="dur">1:35</span><a class="dl" href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/When_Agents_Talk_to_Each_Other_720p.mp4">Download</a></div>
+      </div>
+    </article>
+
+  </div>
+
+  <section class="timeline">
+    <h2>How one day made ten videos</h2>
+    <ol>
+      <li><time>17:43</time> — the pilot test video, &ldquo;Why Agentic Agents Are Here to Stay&rdquo;, finishes.</li>
+      <li><time>18:39</time> — three follow-ups done: the 3 jobs, cost vs save, agents vs chatbots.</li>
+      <li><time>20:44</time> — seven more topics approved on the spot.</li>
+      <li><time>22:08</time> — all seven done and verified. Ten videos, one day.</li>
+    </ol>
+  </section>
+
+  <section class="pilot">
+    <h2>How it started</h2>
+    <div class="pilot-card">
+      <video controls preload="metadata" poster="posters/pilot.jpg">
+        <source src="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/Why_Agentic_Agents_Are_Here_to_Stay.mp4" type="video/mp4">
+      </video>
+      <div>
+        <h3>Why Agentic Agents Are Here to Stay</h3>
+        <p>The pilot — 1:52, 23 shots — that proved the pipeline worked before the other ten were made. It is not counted among the ten; it is the reason they exist.</p>
+        <p><a href="https://raw.githubusercontent.com/terencetsy/agentic-agents-videos/main/videos/Why_Agentic_Agents_Are_Here_to_Stay.mp4">Download the pilot</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Made with the ReachMora 2D long-form engine (local, open-licensed) and the voice of George via ElevenLabs.<br>
+  Code on <a href="https://github.com/terencetsy/agentic-agents-videos">GitHub</a> &middot; 23 November 2026</p>
+</footer>
+</body>
+</html>
